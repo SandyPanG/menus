@@ -5,6 +5,10 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  color: white;
+}
+
 ul {
   line-height: 3em;
   list-style: none;
@@ -15,6 +19,13 @@ ul {
 }
 
 li {
+  background-color: #f0f0fd;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+a {
   color: black;
   display: block;
   padding-left: 3em;
@@ -22,5 +33,13 @@ li {
 }
 
 a:hover {
-  background: #c7d0d3;
+  background: #c9d5ce;
+}
+
+ul li:first-child {
+  background-color: #fca400;
+}
+
+ul li:first-child a {
+  color: white;
 }
